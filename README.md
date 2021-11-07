@@ -1,5 +1,5 @@
 
-# Project Title
+# TANZANIA MIKOA API
 
  Welcome to mikoa API documentation, the API is prepared to help make it easy fetch any region,
                 districts,wards and streets. 
