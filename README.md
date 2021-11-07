@@ -26,7 +26,7 @@
 ### BASE URL 
 
 ```
-BASE URL: http://mikoa.kitivopoint.com
+BASE URL: https://mikoa.kitivopoint.com
 
 ```
 
