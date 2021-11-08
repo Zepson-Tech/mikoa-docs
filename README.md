@@ -74,7 +74,7 @@ BASE URL: https://mikoa.kitivopoint.com
         "name": "Rorya",
         "code": "313"
     }: "372"
-    }
+    
 ```
 
 #### Get all Wards
@@ -88,12 +88,12 @@ BASE URL: https://mikoa.kitivopoint.com
 [
     {
         "name": "Mjini",
-        "code": null
+        "code": 35
     },
     {
         "name": "Kambarage",
-        "code": 'null'
-    },
+        "code": 12
+    }
 ]
  ```
 
@@ -159,7 +159,7 @@ BASE URL: https://mikoa.kitivopoint.com
  {
         "id": 479,
         "name": "Machame mashariki",
-        "code": null,
+        "code": 87,
         "district_id": 19,
         "created_at": "2021-11-07T15:19:11.000000Z",
         "updated_at": "2021-11-07T15:19:11.000000Z"
@@ -167,7 +167,7 @@ BASE URL: https://mikoa.kitivopoint.com
     {
         "id": 480,
         "name": "Machame narumu",
-        "code": null,
+        "code": 23,
         "district_id": 19,
         "created_at": "2021-11-07T15:19:11.000000Z",
         "updated_at": "2021-11-07T15:19:11.000000Z"
@@ -189,7 +189,7 @@ BASE URL: https://mikoa.kitivopoint.com
    {
         "id": 7221,
         "name": "Kibaoni",
-        "code": "NULL",
+        "code": 54,
         "ward_id": 490,
         "created_at": "2021-11-07T15:19:11.000000Z",
         "updated_at": "2021-11-07T15:19:11.000000Z"
@@ -197,7 +197,7 @@ BASE URL: https://mikoa.kitivopoint.com
     {
         "id": 7222,
         "name": "Bomani",
-        "code": "NULL",
+        "code": 24,
         "ward_id": 490,
         "created_at": "2021-11-07T15:19:11.000000Z",
         "updated_at": "2021-11-07T15:19:11.000000Z"
@@ -235,7 +235,7 @@ BASE URL: https://mikoa.kitivopoint.com
                 "region_id": 1,
                 "created_at": "2021-11-07T15:18:53.000000Z",
                 "updated_at": "2021-11-07T15:18:53.000000Z"
-            },
+            }
 
 ```
 
@@ -260,7 +260,7 @@ BASE URL: https://mikoa.kitivopoint.com
             {
                 "id": 1,
                 "name": "Mjini",
-                "code": null,
+                "code": 87,
                 "district_id": 1,
                 "created_at": "2021-11-07T15:18:52.000000Z",
                 "updated_at": "2021-11-07T15:18:52.000000Z"
