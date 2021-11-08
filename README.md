@@ -53,7 +53,7 @@ BASE URL: https://mikoa.kitivopoint.com
         "code": "31",
         "created_at": "2021-11-07T15:19:00.000000Z",
         "updated_at": "2021-11-07T15:19:00.000000Z"
-    },
+    }
 
  ```
 
@@ -73,8 +73,8 @@ BASE URL: https://mikoa.kitivopoint.com
     {
         "name": "Rorya",
         "code": "313"
-    },: "372"
-    },
+    }: "372"
+    }
 ```
 
 #### Get all Wards
@@ -92,7 +92,7 @@ BASE URL: https://mikoa.kitivopoint.com
     },
     {
         "name": "Kambarage",
-        "code": null
+        "code": 'null'
     },
 ]
  ```
@@ -139,7 +139,7 @@ BASE URL: https://mikoa.kitivopoint.com
         "region_id": 26,
         "created_at": "2021-11-07T15:21:33.000000Z",
         "updated_at": "2021-11-07T15:21:33.000000Z"
-    },
+    }
 ```
 
 
@@ -171,7 +171,7 @@ BASE URL: https://mikoa.kitivopoint.com
         "district_id": 19,
         "created_at": "2021-11-07T15:19:11.000000Z",
         "updated_at": "2021-11-07T15:19:11.000000Z"
-    },
+    }
 ```
 
 #### filter Street by ward
@@ -201,7 +201,7 @@ BASE URL: https://mikoa.kitivopoint.com
         "ward_id": 490,
         "created_at": "2021-11-07T15:19:11.000000Z",
         "updated_at": "2021-11-07T15:19:11.000000Z"
-    },
+    }
 ```
 
 #### Get All regions with district
@@ -268,11 +268,11 @@ BASE URL: https://mikoa.kitivopoint.com
             {
                 "id": 2,
                 "name": "Kambarage",
-                "code": null,
+                "code": 855,
                 "district_id": 1,
                 "created_at": "2021-11-07T15:18:52.000000Z",
                 "updated_at": "2021-11-07T15:18:52.000000Z"
-            },
+            }
             
 ```
 
