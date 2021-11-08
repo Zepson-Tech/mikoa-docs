@@ -32,7 +32,7 @@ BASE URL: https://mikoa.kitivopoint.com
 
 #### Get all regions
 
-```http
+```shell
   GET /api/v1/regions
 ```
  
@@ -59,7 +59,7 @@ BASE URL: https://mikoa.kitivopoint.com
 
 #### Get All Districts
 
-```http
+```shell
   GET /api/v1/districts
 ```
 #### sample response 
@@ -79,7 +79,7 @@ BASE URL: https://mikoa.kitivopoint.com
 
 #### Get all Wards
 
-```http
+```shell
   GET /api/v1/wards
 ```
  #### sample response
@@ -99,7 +99,7 @@ BASE URL: https://mikoa.kitivopoint.com
 
 #### Get All Streets
 
-```http
+```shell
   GET /api/v1/Streets
 ```
 #### sample response
@@ -114,7 +114,7 @@ BASE URL: https://mikoa.kitivopoint.com
 ```
 #### filter district by regions
 
-```http
+```shell
   GET /api/v1/filter_districts_by_region
 ```
 
@@ -146,7 +146,7 @@ BASE URL: https://mikoa.kitivopoint.com
  
 #### filter ward by district
 
-```http
+```shell
   GET /api/v1/filter_wards_by_district
 ```
 
@@ -176,7 +176,7 @@ BASE URL: https://mikoa.kitivopoint.com
 
 #### filter Street by ward
 
-```http
+```shell
   GET /api/v1/filter_streets_by_ward
 ```
 
@@ -206,12 +206,13 @@ BASE URL: https://mikoa.kitivopoint.com
 
 #### Get All regions with district
 
-```http
+```shell
   GET /api/v1/regions_with_districts
 ```
  
 #### Sample response
-```[
+```json 
+[
     {
         "id": 1,
         "name": "Shinyanga",
@@ -240,13 +241,14 @@ BASE URL: https://mikoa.kitivopoint.com
 
 #### Get All district with ward
 
-```http
+```shell
   GET /api/v1/districts_with_wards
 ```
 
  
 #### Sample response
-```[
+```json
+[
     {
         "id": 1,
         "name": "Shinyanga\ncbd",
@@ -278,14 +280,14 @@ BASE URL: https://mikoa.kitivopoint.com
 
 #### Get All ward with Street
 
-```http
+```shell
   GET /api/v1/wards_with_streets
 ```
 
 
 #### Get total Regions
 
-```http
+```shell
   GET /api/v1/total_regions
 ```
  #### sample response
@@ -298,7 +300,7 @@ BASE URL: https://mikoa.kitivopoint.com
 
  #### Get total Districts
 
-```http
+```shell
   GET /api/v1/total_districts
 ```
  #### sample response
@@ -312,7 +314,7 @@ BASE URL: https://mikoa.kitivopoint.com
 
  #### Get total Wards
 
-```http
+```shell
   GET /api/v1/total_wards
 ```
  
@@ -320,14 +322,14 @@ BASE URL: https://mikoa.kitivopoint.com
  
  #### Get total Street
 
-```http
+```shell
   GET /api/v1/total_streets
 ```
  
  
 #### total district by region
 
-```http
+```shell
   GET /api/v1/total_districts_by_region
 ```
 
@@ -340,7 +342,7 @@ BASE URL: https://mikoa.kitivopoint.com
  
 #### total ward by district
 
-```http
+```shell
   GET /api/v1/total_wards_by_district
 ```
 
@@ -352,7 +354,7 @@ BASE URL: https://mikoa.kitivopoint.com
 
 #### total street by ward
 
-```http
+```shell
   GET /api/v1/total_streets_by_ward
 ```
 
